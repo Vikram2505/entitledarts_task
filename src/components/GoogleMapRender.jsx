@@ -12,8 +12,8 @@ const GoogleMapRender = ({ selectedLocation, setSelectedLocation }) => {
     const handlePlaceSelect = (place) => {
         setSelectedLocation({
             ...selectedLocation,
-            lat: place?.geometry?.location.lat(),
-            lng: place?.geometry?.location.lng()
+            lat: place?.geometry?.location.lat() || 21.146310,
+            lng: place?.geometry?.location.lng() || 79.084910
         });
     };
 

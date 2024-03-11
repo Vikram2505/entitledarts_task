@@ -36,7 +36,7 @@ function App() {
         )
       case 2:
         return (
-          <StepperForm3 />
+          <StepperForm3 selectedLocation={selectedLocation} />
         )
 
     }
