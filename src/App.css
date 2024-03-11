@@ -1,0 +1,67 @@
+#root {
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+body {
+  background-color: #f8f7fa !important;
+}
+
+#RFS-ConnectorContainer {
+  top: calc(1em - 0.5px);
+  left: calc(-93% + 2em - 8px);
+  right: calc(93% + 2em - 8px);
+  position: absolute;
+}
+
+#RFS-StepMain {
+  align-items: start;
+}
+
+#RFS-Label {
+  text-align: left;
+  margin-top: 5px;
+}
+
+.cameraLocationData input {
+  border-color: #99b4ea;
+  border-width: 2px;
+}
+
+#RFS-StepButton.active,
+#RFS-StepButton.completed {
+  background-color: #2465e9;
+}
+
+#RFS-Connector {
+  border-top-width: 3px;
+}
+.searchIconMap{
+  position: absolute;
+  top: 2em;
+  right: 20em;
+}
+#mapSearchBoxInput {
+  width: 300px;
+  border: 3px solid #99b4ea;
+  position: absolute;
+  left: 5%;
+  top: 5%;
+}
+.leftSideBar{
+  background-color: #eaedfc;
+  padding: 1em;
+}
+.leftSideBar__userName h6{
+  color: #2465e9;
+}
+.leftSideBar__userName > p{
+color: rgb(196, 188, 188);
+}
+.leftSideBar__menus{
+  cursor: pointer;
+}
+.activeMenu{
+  background-color: #c7d8fa;
+  border-radius: 4px;
+}
